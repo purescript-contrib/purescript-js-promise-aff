@@ -1,4 +1,4 @@
-# purescript-aff-promise
+# purescript-js-promise-aff
 
 Simple library for interop between Aff and JavaScript promises.
 
@@ -23,7 +23,7 @@ getLinesAff = do
 and this can be exposed as a function returning a promise:
 
 ```purescript
-import Control.Promise as Promise
+import Promise.Aff as Promise
 
 getLines :: Effect (Promise (Array String))
 getLines = Promise.fromAff getLinesAff
@@ -59,7 +59,7 @@ the function returns the network request has already been initated.
 The response can then be converted to an `Aff` and consumed easily:
 
 ```purescript
-import Control.Promise as Promise
+import Promise.Aff as Promise
 
 fetch :: String -> Aff String
 fetch = fetchImpl >>> Promise.toAffE
@@ -67,4 +67,4 @@ fetch = fetchImpl >>> Promise.toAffE
 
 # Documentation
 
-API documentation is available [on Pursuit](https://pursuit.purescript.org/packages/purescript-aff-promise).
+API documentation is available [on Pursuit](https://pursuit.purescript.org/packages/purescript-js-promise-aff).
