@@ -1,21 +1,9 @@
 {
-  "name": "purescript-aff-promise",
   "private": true,
-  "description": "Simple library for interop between Aff and JavaScript promises.",
   "scripts": {
     "build": "purs-tidy check --config-require src && pulp build -- --censor-lib --strict",
     "test": "pulp test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nwolverson/purescript-aff-promise.git"
-  },
-  "author": "Nicholas Wolverson",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nwolverson/purescript-aff-promise/issues"
-  },
-  "homepage": "https://github.com/nwolverson/purescript-aff-promise#readme",
   "devDependencies": {
     "pulp": "^16.0.2",
     "purescript-psa": "^0.8.2",
