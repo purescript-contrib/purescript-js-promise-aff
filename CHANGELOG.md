@@ -12,7 +12,11 @@ Bugfixes:
 
 Other improvements:
 
-- Migrated to registry-backed Spago and updated development tooling and CI.
+## [v1.0.1](https://github.com/purescript-contrib/purescript-js-promise-aff/releases/tag/v1.0.1) - 2026-10-11
+
+Other improvements:
+
+- Migrated to registry-backed Spago and updated development tooling and CI (#4).
 
 ## [v1.0.0](https://github.com/purescript-contrib/purescript-js-promise-aff/releases/tag/v1.0.0) - 2022-11-09
 
